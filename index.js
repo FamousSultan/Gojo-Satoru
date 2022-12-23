@@ -145,12 +145,12 @@ Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURICom
 Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
                     GojoMdNx.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
-⭐✑ هلا👋 @${num.split("@")[0]},
-⭐✑ نورت جروبنا ${metadata.subject}
+⭐✑ ارحـــب يوحش😁🤍 @${num.split("@")[0]},
+⭐✑ نورت قروبنا ${metadata.subject}
 
 ⭐✑ الوصف : ${metadata.desc}
 
-⭐✑ اتمنى ان تستمتع معنا 😍✨!!`} )
+⭐✑ اتمنى تنبسط معنا 😏✊🏼!!`} )
                 } else if (anu.action == 'remove') {
                     GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} غادر ${metadata.subject}
 
